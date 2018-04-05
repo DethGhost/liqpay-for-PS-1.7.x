@@ -23,12 +23,12 @@
 
 {l s='You will be redirected to the Liqpay website in a few seconds.' mod='liqpay'}
 
-{extends file='page.tpl'}
+{**{extends file='page.tpl'}**}
 
 {**{block name='page_content'}
 	<div>
-		<h1>Информация о статусе оплаты</h1>
-		<h4>Уважаемый покупатель!</h4>
+		<h1>Г€Г­ГґГ®Г°Г¬Г Г¶ГЁГї Г® Г±ГІГ ГІГіГ±ГҐ Г®ГЇГ«Г ГІГ»</h1>
+		<h4>Г“ГўГ Г¦Г ГҐГ¬Г»Г© ГЇГ®ГЄГіГЇГ ГІГҐГ«Гј!</h4>
 		<p>{$message}</p>
 	</div>
 {/block}**}
